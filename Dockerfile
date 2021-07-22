@@ -17,6 +17,8 @@ RUN npm install
 # Generate the build of the application
 RUN npm run build
 
+# RUN apt-get update && apt-get install -y redis-server
+
 # Stage 2: Serve app with nginx server
 
 # Use official nginx image as the base image
