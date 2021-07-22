@@ -1,0 +1,5 @@
+// docker build .
+// copy the image hash "successfully built <uid>"
+//copy the uid Then
+// sudo docker run -d -it -p 80:80 4b7c359ce288
+// go to the browser on http://127.0.0.1 ==> You will see the website live:
